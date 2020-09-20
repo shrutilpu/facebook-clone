@@ -1,0 +1,50 @@
+.Post{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+}
+
+.Post__Top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+.Post__Avatar{
+margin-right: 10px;
+}
+.Post__topInfo >h3{
+ font-size: medium;
+}
+.Post__topInfo >span{
+    font-size: small;
+    color: gray;
+}
+.Post__image > img{
+    width: 100%;
+}
+.Post__Options{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+.Post__option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+.Post__option >p{
+    margin-left: 10px;
+}
+.Post__option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
