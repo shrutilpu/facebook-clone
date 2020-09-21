@@ -28,6 +28,7 @@ height: 40px;
     border: none;
     background-color: transparent;
     margin-right: 3px;
+    width: 80%;
 }
 .facebook__search >input:focus{
     outline: none;
@@ -36,6 +37,7 @@ height: 40px;
     display: flex;
     justify-content: center;
     flex: 1;
+    justify-content: space-evenly;
 }
 .Header__option > .MuiSvgIcon-root{
     color: gray;

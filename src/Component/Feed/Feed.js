@@ -7,7 +7,7 @@ import db from '../../Firebase';
 function Feed() {
     const [posts,setPosts] = useState();
     useEffect(()=>{
-       return db.collection('posts').onSnapshot(snap=>{
+       return db.collection('posts').orderBy("timeStamp","desc").onSnapshot(snap=>{
             return setPosts(snap.docs.map(doc=>({id:doc.id,data:doc.data()})))
         });
         

@@ -16,9 +16,10 @@ function FeedC({profilePic,image,userName,timeStamp,Message}) {
             </div>
             <div className="Post__Bottom">
                <p>{Message}</p>
-               <div className="Post__image">
+               {image!==""?<div className="Post__image">
                    <img src={image} alt="posts"/>
-               </div>
+               </div>:null}
+               
             </div>
             <div className="Post__Options">
                 <div className="Post__option">
